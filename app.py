@@ -8,5 +8,15 @@ def hello_world():
   return render_template("index.html")
 
 
+@app.route("/SIGNUP")
+def SIGNUP():
+  return render_template("SIGNUP.html")
+
+
+@app.route("/LOGIN")
+def LOGIN():
+  return render_template("LOGIN.html")
+
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)
