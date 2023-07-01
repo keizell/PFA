@@ -8,14 +8,14 @@ def hello_world():
   return render_template("index.html")
 
 
-@app.route("/SIGNUP")
-def SIGNUP():
-  return render_template("SIGNUP.html")
+@app.route("/signup")
+def signup():
+  return render_template("Signup.html")
 
 
-@app.route("/LOGIN")
-def LOGIN():
-  return render_template("LOGIN.html")
+@app.route("/login")
+def login():
+  return render_template("Login.html")
 
 
 if __name__ == "__main__":
