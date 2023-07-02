@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: azure;
+    background-color: rgb(252, 78, 78);
+    margin-top: -20px;
+    margin: -8PX;
+    padding: 2%;
+}
+
+body{
+    background-color: rgb(23, 4, 31);
+}
+
+
+a:link{
+    color: rgb(245, 14, 106);
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+label{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+}
+form{
+    text-align: center;
+    margin-top: 13%;
+}
+input{
+    width: 30%;
+    border-color: brown;
+    border-width: 7px;
+}
+
+.submit{
+    background-color: rgb(226, 52, 130);
+    font-size: 30px;
+    color: rgb(63, 5, 23);
+    border-radius: 10px;
+}
